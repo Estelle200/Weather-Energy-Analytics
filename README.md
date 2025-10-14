@@ -36,4 +36,5 @@ Created a MySQL database (weather_project) and a table (weather_data) to store w
 
 
 # Goal:
+Analyze weather patterns in Hamburg and their potential impact on energy usage, using a data pipeline (Python + MySQL) and a Power BI dashboard.
 This project builds a simple data pipeline from OpenWeatherMap to MySQL, with a Power BI dashboard visualizing weather patterns in Hamburg.
