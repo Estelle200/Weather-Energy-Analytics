@@ -1,7 +1,7 @@
-#Weather-Energy Analytics Pipeline
+# Weather-Energy Analytics Pipeline
 Analyzing weather patterns in Hamburg and their impact on energy usage, using a data pipeline and dashboard.
 
-#Tech Stack
+# Tech Stack
 Python
 MySQL
 Power BI
@@ -17,7 +17,7 @@ MySQL Database
         ↓
 Power BI Dashboard
 
-#Weather Data Extraction (OpenWeather API)
+# Weather Data Extraction (OpenWeather API)
 The weather data is collected from the OpenWeatherMap Current Weather API.
 Each API response is parsed and relevant fields are extracted before being stored in the MySQL database.
 
@@ -56,7 +56,7 @@ Cloud cover acts as a proxy variable for solar radiation, allowing analysis of h
 ingested_at
 Used for pipeline monitoring and auditing, recording when the ETL process loaded the data.
 
-#Renewable Generation Data
+# Renewable Generation Data
 The pipeline retrieves renewable electricity generation data for Germany from the SMARD platform (Bundesnetzagentur). The dataset provides hourly electricity production values for different renewable energy sources.
 The data is extracted using SMARD’s public API and transformed into a structured time-series format before being stored in the database.
 
@@ -97,7 +97,7 @@ wind speed → wind power generation
 cloudiness → solar photovoltaic output
 time-series variability of renewable energy production
 
-#Example insights
+# Example insights
 Wind speed vs wind generation
 Cloudiness vs solar generation
 Time-series renewable patterns
