@@ -91,6 +91,7 @@ Two ETL scripts handle data ingestion.
 
 ## Weather Pipeline
 etl_weather_to_mysql.py
+
 Functions:
 
 fetch weather observations from OpenWeather API
@@ -146,6 +147,7 @@ Wind generation tends to increase with higher wind speeds.
 
 Solar photovoltaic output strongly depends on cloud coverage and daylight hours.
 
+Renewable generation shows strong time-series variability driven by weather conditions.
 
 
 # Dashboard
